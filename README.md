@@ -1,7 +1,9 @@
 # 商业咨询skill — 企业商业咨询 AI 系统
 
 > 作者：东野（商业 + AI 博主）｜ 小红书：https://xhslink.com/m/2w27IQZrDzd
+>
 > 基于系统化商业方法论构建，覆盖战略、运营、组织、营销、品牌、传播、增长全链路诊断。
+>
 > 适配 WorkBuddy、Claude Code、Codex、Hermes、豆包等支持 Skills 的 AI Agent，不绑定单一工具。
 
 ---
@@ -31,6 +33,7 @@
 | 工具兼容 | 适配 WorkBuddy、Claude Code、Codex、Hermes、豆包等支持 Skills 的 Agent |
 
 > 详细索引见 [INDEX.md](./INDEX.md)。
+> **详细使用说明及功能详解**见 [USAGE.md](./USAGE.md)。
 
 ---
 
