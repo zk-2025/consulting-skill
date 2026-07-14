@@ -1,7 +1,8 @@
-# consulting-skill — 企业商业咨询 AI 系统
+# 商业咨询skill — 企业商业咨询 AI 系统
 
+> 作者：东野（商业 + AI 博主）｜ 小红书：https://xhslink.com/m/2w27IQZrDzd
 > 基于系统化商业方法论构建，覆盖战略、运营、组织、营销、品牌、传播、增长全链路诊断。
-> 兼容 CodeArts（VSCode 插件）和 Hermes。
+> 适配 WorkBuddy、Claude Code、Codex、Hermes、豆包等支持 Skills 的 AI Agent，不绑定单一工具。
 
 ---
 
@@ -27,7 +28,7 @@
 | 23条公理 | 所有诊断受公理约束，含6条执行方法论公理 + 6条战略方法论公理 |
 | 存档恢复 | 诊断到一半可以保存，下次继续 |
 | 报告生成 | 简洁版/完整版/合伙人版，可分享给同事 |
-| 工具兼容 | 兼容 CodeArts（VSCode 插件）和 Hermes |
+| 工具兼容 | 适配 WorkBuddy、Claude Code、Codex、Hermes、豆包等支持 Skills 的 Agent |
 
 > 详细索引见 [INDEX.md](./INDEX.md)。
 
@@ -120,20 +121,23 @@ AI：📍 第5步/共5步：给行动方案
 ### 方式一：克隆到项目目录
 
 ```bash
-git clone https://github.com/consulting-skill/consulting-skill.git
+git clone https://github.com/dy-skill/dy-skill.git
 ```
 
 将克隆的文件放到你的项目根目录，或放到 AI 工具能识别的位置。
 
 ### 方式二：各工具配置
 
-#### CodeArts（VSCode 插件）
+本 skill 不绑定单一工具，以下平台均可使用：
 
-当前文件即 CodeArts skill 格式，直接使用。
-
-#### Hermes
-
-当前文件兼容 Hermes 格式，直接使用。
+| 平台 | 使用方式 |
+|------|----------|
+| **WorkBuddy** | 将 skill 文件放入 WorkBuddy 的 skills 目录即可加载 |
+| **Claude Code** | 将 skill 放入项目目录，自动识别 SKILL.md |
+| **Codex** | 将 skill 文件放入 Codex 的 skills 目录即可使用 |
+| **Hermes** | 当前文件兼容 Hermes 格式，直接使用 |
+| **豆包** | 将 skill 文件放入豆包的 skills 目录即可使用 |
+| **其他支持 Skills 的 Agent** | 能读取 SKILL.md 并执行文件读写均可使用 |
 
 ### 开始对话
 
@@ -166,7 +170,7 @@ AI 会自动识别你的问题类型，带你进入诊断流程。
 ## 文件结构
 
 ```
-consulting-skill/
+dy-skill/
 ├── SKILL.md                    # 主入口（公理+工作模式+加载策略）
 ├── INDEX.md                    # 全局索引
 ├── VERSION.md                  # 版本信息
@@ -219,4 +223,12 @@ consulting-skill/
 
 ## License
 
-MIT
+CC BY-NC 4.0（署名-非商业性使用 4.0 国际）
+
+- 个人学习、研究与非商业项目可直接使用
+- 公开发布衍生作品需注明来源
+- 商业用途需另行授权
+
+**作者**：东野（商业 + AI 博主）  
+**小红书**：https://xhslink.com/m/2w27IQZrDzd  
+**GitHub**：dy-skill

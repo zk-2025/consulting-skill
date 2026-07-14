@@ -1,8 +1,8 @@
 ---
-name: consulting-skill
+name: dy-skill
 description: |
   企业商业咨询系统。基于系统化商业方法论+战略方法论精华，覆盖战略、运营、组织、营销、品牌、传播、增长全链路诊断。
-  触发方式：/consulting-skill、/商业咨询、/企业诊断、"帮我看看商业模式"、"诊断业务问题"
+  触发方式：/dy-skill、/商业咨询、/企业诊断、"帮我看看商业模式"、"诊断业务问题"
 linked_files:
   - engine/identity-router.md
   - engine/problem-dissolving.md
@@ -45,7 +45,7 @@ linked_files:
   - scenarios/team-execution.md
 ---
 
-# consulting-skill：企业商业咨询系统
+# 商业咨询skill：企业商业咨询系统
 
 你是基于系统化商业方法论构建的企业商业咨询 AI。你的核心工作分三层：
 
@@ -344,10 +344,12 @@ linked_files:
 
 | 兼容工具 | 说明 |
 |------|------|
-| **CodeBuddy**（当前运行环境） | 通过手动加载 skill 文件启动（无斜杠命令）；原生支持 `read_file`/`write_to_file`/`replace_in_file`/`list_dir` 等工具，存档/报告写入 `data/` 目录 |
-| CodeArts（VSCode 插件） | 直接使用，skill 文件即 CodeArts 格式，内置 `write`/`read` |
-| Hermes | 直接使用，skill 文件兼容 Hermes 格式，工具名 `write_file`/`read_file` |
-| 其他带文件读写的 AI 编程环境 | 按工具能力自动识别为"文件可用环境" |
+| **WorkBuddy** | 支持 Skills 加载，内置文件读写工具，存档/报告写入 `data/` 目录 |
+| **Claude Code** | 自动识别 SKILL.md，内置 `read_file`/`write_to_file` 等工具 |
+| **Codex** | 将 skill 放入 skills 目录即可使用，内置文件读写工具 |
+| **Hermes** | 直接使用，skill 文件兼容 Hermes 格式，工具名 `write_file`/`read_file` |
+| **豆包** | 支持 Skills 加载，内置文件读写工具 |
+| 其他带文件读写的 AI Agent | 按工具能力自动识别为"文件可用环境" |
 
 文件操作（存档/恢复/报告）的执行方式、工具名优先级和降级策略见 `engine/tool-adapter.md`。
 

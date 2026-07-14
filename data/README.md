@@ -1,4 +1,4 @@
-# consulting-skill 数据目录
+# 商业咨询skill 数据目录
 
 此目录存放咨询诊断的存档和报告。
 
