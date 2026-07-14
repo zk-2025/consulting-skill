@@ -33,7 +33,7 @@
 | 工具兼容 | 适配 WorkBuddy、Claude Code、Codex、Hermes、豆包等支持 Skills 的 Agent |
 
 > 详细索引见 [INDEX.md](./INDEX.md)。
-> **详细使用说明及功能详解**见 [USAGE.md](./USAGE.md)。
+> **新手入门与详细指南**见 [新手入门.md](./新手入门.md)。
 
 ---
 
