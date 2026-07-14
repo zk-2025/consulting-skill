@@ -1,0 +1,5 @@
+data/archives/*
+data/reports/*
+!data/archives/.gitkeep
+!data/reports/.gitkeep
+node_modules/
